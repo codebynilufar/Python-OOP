@@ -6,11 +6,11 @@ class User:
 
     def activate(self):
         self.is_active = True
-        print(f"{self.username} faollashtirildi ✅")
+        print(f"{self.username} faollashtirildi")
 
     def deactivate(self):
         self.is_active = False
-        print(f"{self.username} bloklandi ❌")
+        print(f"{self.username} bloklandi")
 
 user1 = User("nilufar23", "nilufar@mail.com", False)
 user1.activate()
